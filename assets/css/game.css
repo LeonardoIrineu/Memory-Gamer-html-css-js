@@ -94,3 +94,48 @@ button:hover{
     filter: saturate(0);
     opacity: 0.5;
 }
+
+
+/* Mobile */
+
+@media  (max-width:533px){
+    header{
+        font-size: 1em;
+        margin: 0 0 20px;
+    }
+}
+
+@media (max-width:515px) {
+    header {
+        font-size: .7em;
+    }
+
+    button{
+        font-size: .9em;
+    }
+}
+
+@media (max-width:380px) {
+    header {
+        font-size: .6em;
+    }
+
+    button {
+        font-size: .8em;
+        width: 60px;
+        padding: 8px;
+    }
+}
+
+@media (max-width:320px) {
+    header {
+        font-size: .5em;
+        padding: 20px;
+    }
+
+    button {
+        font-size: .8em;
+        width: 60px;
+        padding: 8px;
+    }
+}

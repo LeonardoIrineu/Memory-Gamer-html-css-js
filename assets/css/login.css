@@ -59,3 +59,11 @@
     color: #AAA;
     cursor: auto;
 }
+
+/* Mobile */
+
+@media  (max-width:368px) {
+    .login-header h1 {
+        font-size: 1.1em;
+    }
+}
